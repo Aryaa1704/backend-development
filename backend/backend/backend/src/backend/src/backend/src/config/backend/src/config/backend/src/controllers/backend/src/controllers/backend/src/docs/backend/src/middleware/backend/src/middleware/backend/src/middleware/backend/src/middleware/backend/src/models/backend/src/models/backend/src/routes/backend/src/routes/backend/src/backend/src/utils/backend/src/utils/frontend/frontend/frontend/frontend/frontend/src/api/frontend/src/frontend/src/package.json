@@ -1,0 +1,13 @@
+{
+  "name": "backend-development-fullstack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express JWT task API with a React frontend.",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "echo \"Run backend and frontend in two terminals: npm run dev --prefix backend / npm run dev --prefix frontend\"",
+    "start": "npm run start --prefix backend",
+    "test": "npm run test --prefix backend",
+    "lint": "npm run lint --prefix backend && npm run lint --prefix frontend"
+  }
+}
